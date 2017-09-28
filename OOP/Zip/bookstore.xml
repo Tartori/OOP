@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<university>
+    <name>bfh</name>
+    <staff>
+        <staffMember xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="student">
+            <name>Max</name>
+            <email>max@bfh.ch</email>
+            <grade>B</grade>
+        </staffMember>
+        <staffMember>
+            <name>Mr. X</name>
+            <email>prof.x@bfh.ch</email>
+        </staffMember>
+        <staffMember>
+            <name>Erni Schmidt</name>
+            <email>erni.schmidt@bfh.ch</email>
+        </staffMember>
+    </staff>
+    <students>
+        <student>
+            <name>Max</name>
+            <email>max@bfh.ch</email>
+            <grade>B</grade>
+        </student>
+        <student>
+            <name>Tom</name>
+            <email>tom@bfh.ch</email>
+            <grade>c</grade>
+        </student>
+    </students>
+</university>

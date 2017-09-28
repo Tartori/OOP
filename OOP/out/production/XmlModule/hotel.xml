@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Restrict the stars to values between 1 and 7 -->
+<hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="hotel.xsd"
+       stars="****">
+    <!-- each element should occur only once -->
+    <!-- only positive numbers are allowed -->
+    <rooms>
+        <single-room>2</single-room>
+        <double-room>3</double-room>
+        <suite>44</suite>
+    </rooms>
+</hotel>

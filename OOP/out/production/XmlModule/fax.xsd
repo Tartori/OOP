@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- address xml without namespaces -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+
+    <xsd:simpleType name="faxNoType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\s*\d{3}\s\d{3}\s\d{2}\s\d{2}\s*"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="checksumType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="[\da-z]+"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="timeType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(0\d|1[0-2]):[0-5]\d(pm|am)"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:simpleType name="dateType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="(1[0-2]|[1-9])/([1-2]\d|3[0-1])/\d{2}"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="urgencyType" >
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="URGENT" />
+            <xsd:enumeration value="NORMAL" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="formatType" >
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="Letter" />
+            <xsd:enumeration value="A4" />
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="colorType" >
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="BW" />
+            <xsd:enumeration value="Color" />
+        </xsd:restriction>
+    </xsd:simpleType>
+
+    <xsd:complexType name="fromToType" mixed="true">
+        <xsd:attribute name="name" type="xsd:string"/>
+        <xsd:attribute name="faxno" type="faxNoType"/>
+    </xsd:complexType>
+
+
+
+    <xsd:element name="fax">
+        <xsd:complexType mixed="true">
+            <xsd:all>
+                <xsd:element name="header">
+                    <xsd:complexType>
+                        <xsd:all>
+                            <xsd:element name="from" type="fromToType"/>
+                            <xsd:element name="to" type="fromToType"/>
+                            <xsd:element name="priority">
+                                <xsd:complexType>
+                                    <xsd:attribute name="type" type="urgencyType"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="pages">
+                                <xsd:complexType>
+                                    <xsd:attribute name="number" type="xsd:unsignedInt"/>
+                                    <xsd:attribute name="format" type="formatType"/>
+                                    <xsd:attribute name="color" type="colorType"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:all>
+                    </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="body" type="xsd:string"/>
+                <xsd:element name="checkinfo">
+                    <xsd:complexType>
+                        <xsd:attribute name="checksum" type="checksumType" />
+                        <xsd:attribute name="txtime" type="timeType"/>
+                        <xsd:attribute name="txdate" type="dateType"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:all>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>

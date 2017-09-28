@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Abstract/Abstract.iml" filepath="$PROJECT_DIR$/Abstract/Abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bank/Bank.iml" filepath="$PROJECT_DIR$/Bank/Bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Enums/Enums.iml" filepath="$PROJECT_DIR$/Enums/Enums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamPrep/ExamPrep.iml" filepath="$PROJECT_DIR$/ExamPrep/ExamPrep.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" filepath="$PROJECT_DIR$/ExceptionHandling/ExceptionHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercises/Exercises.iml" filepath="$PROJECT_DIR$/Exercises/Exercises.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilesIO/FilesIO.iml" filepath="$PROJECT_DIR$/FilesIO/FilesIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaTest2/JavaTest2.iml" filepath="$PROJECT_DIR$/JavaTest2/JavaTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyJavaFx/MyJavaFx.iml" filepath="$PROJECT_DIR$/MyJavaFx/MyJavaFx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyUniversity/MyUniversity.iml" filepath="$PROJECT_DIR$/MyUniversity/MyUniversity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP.iml" filepath="$PROJECT_DIR$/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuizDuell/QuizDuell.iml" filepath="$PROJECT_DIR$/QuizDuell/QuizDuell.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serialization/Serialization.iml" filepath="$PROJECT_DIR$/Serialization/Serialization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stopwatch/Stopwatch.iml" filepath="$PROJECT_DIR$/Stopwatch/Stopwatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XmlModule/XmlModule.iml" filepath="$PROJECT_DIR$/XmlModule/XmlModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zip/Zip.iml" filepath="$PROJECT_DIR$/Zip/Zip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/faxMachine/faxMachine.iml" filepath="$PROJECT_DIR$/faxMachine/faxMachine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myBookstore/myBookstore.iml" filepath="$PROJECT_DIR$/myBookstore/myBookstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/personList/personList.iml" filepath="$PROJECT_DIR$/personList/personList.iml" />
+    </modules>
+  </component>
+</project>

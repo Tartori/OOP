@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/topic04_xml/01_xsd/bankAccount/sol" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/xml/schema/hotel/rey" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/io/exercises/rafBankAccount/rey" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/src/exceptions" />
+      <excludeFolder url="file://$MODULE_DIR$/src/fxml" />
+      <excludeFolder url="file://$MODULE_DIR$/src/i18n" />
+      <excludeFolder url="file://$MODULE_DIR$/src/io" />
+      <excludeFolder url="file://$MODULE_DIR$/src/io/exercises/rafBankAccount/blank" />
+      <excludeFolder url="file://$MODULE_DIR$/src/raf" />
+      <excludeFolder url="file://$MODULE_DIR$/src/topic04_xml" />
+      <excludeFolder url="file://$MODULE_DIR$/src/topic04_xml/01_xsd" />
+      <excludeFolder url="file://$MODULE_DIR$/src/topic04_xml/01_xsd/bankAccount" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/Xml" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/Xml/src" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/Xml/src/jaxb" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/Xml/src/jaxb/fax" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/Xml/src/jaxb/fax/rey" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom/exerciseRecursion/blank" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom/exerciseRecursion/solution" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom/exerciseSonnet/blank" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom/exerciseSonnet/rey" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/dom/exerciseSonnet/solution" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/jaxb" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/jaxp" />
+      <excludeFolder url="file://$MODULE_DIR$/src/xml/jaxp/rss/blank" />
+    </content>
+    <content url="file://$MODULE_DIR$/src/xml/Xml/src/jaxb/fax/rey" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

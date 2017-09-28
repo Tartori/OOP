@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeLab.iml" filepath="$PROJECT_DIR$/CodeLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task1/exam1.task1.iml" filepath="$PROJECT_DIR$/exam1.task1/exam1.task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task2/exam1.task2.iml" filepath="$PROJECT_DIR$/exam1.task2/exam1.task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task3/exam1.task3.iml" filepath="$PROJECT_DIR$/exam1.task3/exam1.task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task4/exam1.task4.iml" filepath="$PROJECT_DIR$/exam1.task4/exam1.task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task5/exam1.task5.iml" filepath="$PROJECT_DIR$/exam1.task5/exam1.task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam1.task6/exam1.task6.iml" filepath="$PROJECT_DIR$/exam1.task6/exam1.task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.bookstore.rey/xml.process.jaxb.bookstore.rey.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.bookstore.rey/xml.process.jaxb.bookstore.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.bookstore.sol/xml.process.jaxb.bookstore.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.bookstore.sol/xml.process.jaxb.bookstore.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.fax.rey/xml.process.jaxb.fax.rey.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.fax.rey/xml.process.jaxb.fax.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.fax.sol/xml.process.jaxb.fax.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.fax.sol/xml.process.jaxb.fax.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.person.sol/xml.process.jaxb.person.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.person.sol/xml.process.jaxb.person.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxb.university.sol/xml.process.jaxb.university.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxb.university.sol/xml.process.jaxb.university.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.dom.recursion.rey/xml.process.jaxp.dom.recursion.rey.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.dom.recursion.rey/xml.process.jaxp.dom.recursion.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.dom.recursion.sol/xml.process.jaxp.dom.recursion.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.dom.recursion.sol/xml.process.jaxp.dom.recursion.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.dom.sonnet.rey/xml.process.jaxp.dom.sonnet.rey.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.dom.sonnet.rey/xml.process.jaxp.dom.sonnet.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.dom.sonnet.sol/xml.process.jaxp.dom.sonnet.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.dom.sonnet.sol/xml.process.jaxp.dom.sonnet.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.stax.bookCatalog.sol/xml.process.jaxp.stax.bookCatalog.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.stax.bookCatalog.sol/xml.process.jaxp.stax.bookCatalog.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.stax.item.sol/xml.process.jaxp.stax.item.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.stax.item.sol/xml.process.jaxp.stax.item.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.stax.rss.rey/xml.process.jaxp.stax.rss.rey.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.stax.rss.rey/xml.process.jaxp.stax.rss.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.process.jaxp.stax.rss.sol/xml.process.jaxp.stax.rss.sol.iml" filepath="$PROJECT_DIR$/xml.process.jaxp.stax.rss.sol/xml.process.jaxp.stax.rss.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.address.sol/xml.xsd.address.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.address.sol/xml.xsd.address.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.addressNamespace.sol/xml.xsd.addressNamespace.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.addressNamespace.sol/xml.xsd.addressNamespace.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.bankAccount.sol/xml.xsd.bankAccount.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.bankAccount.sol/xml.xsd.bankAccount.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.document.sol/xml.xsd.document.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.document.sol/xml.xsd.document.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.fax.rey/xml.xsd.fax.rey.iml" filepath="$PROJECT_DIR$/xml.xsd.fax.rey/xml.xsd.fax.rey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.fax.sol/xml.xsd.fax.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.fax.sol/xml.xsd.fax.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.hotel.sol/xml.xsd.hotel.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.hotel.sol/xml.xsd.hotel.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.hotel2.sol/xml.xsd.hotel2.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.hotel2.sol/xml.xsd.hotel2.sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml.xsd.purchase.sol/xml.xsd.purchase.sol.iml" filepath="$PROJECT_DIR$/xml.xsd.purchase.sol/xml.xsd.purchase.sol.iml" />
+    </modules>
+  </component>
+</project>

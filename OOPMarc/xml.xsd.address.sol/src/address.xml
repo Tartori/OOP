@@ -1,0 +1,12 @@
+<address
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://example.org/myself/address.xsd">
+    <firstname>John</firstname>
+    <name>Smith</name>
+    <street>45th Avenue</street>
+    <number>16</number>
+    <apt-number>3</apt-number>
+    <city>New York</city>
+    <zip>10002</zip>
+    <country>USA</country>
+</address >

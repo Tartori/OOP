@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="OOP">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaFX_controls.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaFX_panes.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

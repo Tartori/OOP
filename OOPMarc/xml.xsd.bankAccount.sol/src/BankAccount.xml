@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a bank account --> 
+<account>
+    <!-- the account number -->
+	<number>123-234-123</number>
+	<!-- the owner of the bank account -->
+	<owner>
+		<name>Hans Muster</name>
+		<address>
+			<street>Musterstrasse 8</street>
+			<city>Bern</city>
+		</address>
+	</owner>
+	<!-- the status -->
+	<status>normal</status>
+	<!--  the bank account type -->
+	<type>savings</type>
+</account>

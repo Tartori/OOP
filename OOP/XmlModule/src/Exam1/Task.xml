@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Packaging" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Task1.xsd">
+    <!-- Ein project-Element kann beliebig viele target-Elemente enthalten ( 1..n )  -->
+    <target name="test">
+        <javac destdir="${test.dir}" srcdir="${test.src}">
+            <classpath> test.classpath </classpath>
+        </javac>
+        <!-- Attribute printsummery hat nur die Werte yes oder no -->
+        <junit printsummary="yes">
+            <classpath> test.classpath </classpath>
+            <!-- Ein junit-Element kann beliebig viele test-Elemente enthalten ( 1..n )  -->
+            <!-- Das name-attribute des test-Elementes ist obligatorisch -->
+            <test name="workbench.FileAccessTest" />
+
+        </junit>
+    </target>
+    <target name="test">
+        <javac destdir="${test.dir}" srcdir="${test.src}">
+            <classpath> test.classpath </classpath>
+        </javac>
+        <!-- Attribute printsummery hat nur die Werte yes oder no -->
+        <junit printsummary="yes">
+            <classpath> test.classpath </classpath>
+            <!-- Ein junit-Element kann beliebig viele test-Elemente enthalten ( 1..n )  -->
+            <!-- Das name-attribute des test-Elementes ist obligatorisch -->
+            <test name="workbench.FileAccessTest" />
+            <test name="workbench.FileDeleteTest" />
+        </junit>
+    </target>
+</project>

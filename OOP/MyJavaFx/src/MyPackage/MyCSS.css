@@ -1,0 +1,25 @@
+
+.my-vbox{
+    -fx-background-image:url("http://orig01.deviantart.net/471e/f/2011/311/2/4/set_you_lasers_to_pew_pew_pew__by_rainbowrocketsocks-d4fh8ft.jpg") ;
+}
+
+.my-label{
+    -fx-font-siz: 30px;
+    -fx-font-weight: bold;
+    -fx-font-family: fantasy;
+    -fx-text-fill: linear-gradient(red, blue, gold, black);
+}
+
+.button{
+    -fx-background-color: green;
+}
+
+.button:hover{
+     -fx-background-color: yellow;
+ }
+.button:pressed{
+    -fx-background-color: red;
+}
+.button:hover{
+    -fx-background-color: yellow;
+}

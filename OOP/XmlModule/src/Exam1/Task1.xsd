@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- address xml without namespaces -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            elementFormDefault="qualified">
+    <xsd:simpleType name="summaryType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="yes|no"/>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:element name="project">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="target" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="javac">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="classpath"/>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="destdir" type="xsd:string"/>
+                                    <xsd:attribute name="srcdir" type="xsd:string"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                            <xsd:element name="junit">
+                                <xsd:complexType>
+                                    <xsd:sequence>
+                                        <xsd:element name="classpath"/>
+                                        <xsd:element name="test" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:attribute name="name" type="xsd:string" use="required"/>
+                                            </xsd:complexType>
+                                        </xsd:element>
+                                    </xsd:sequence>
+                                    <xsd:attribute name="printsummary" type="summaryType"/>
+                                </xsd:complexType>
+                            </xsd:element>
+                        </xsd:sequence>
+                        <xsd:attribute name="name" type="xsd:string"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+            <xsd:attribute name="name" type="xsd:string"/>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema>
